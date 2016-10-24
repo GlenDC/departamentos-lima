@@ -9,10 +9,10 @@
 #     http://scrapy.readthedocs.org/en/latest/topics/downloader-middleware.html
 #     http://scrapy.readthedocs.org/en/latest/topics/spider-middleware.html
 
-BOT_NAME = 'quotesbot'
+BOT_NAME = 'adondevivir'
 
-SPIDER_MODULES = ['quotesbot.spiders']
-NEWSPIDER_MODULE = 'quotesbot.spiders'
+SPIDER_MODULES = ['adondevivir.spiders']
+NEWSPIDER_MODULE = 'adondevivir.spiders'
 
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
@@ -65,7 +65,7 @@ ROBOTSTXT_OBEY = True
 # Configure item pipelines
 # See http://scrapy.readthedocs.org/en/latest/topics/item-pipeline.html
 #ITEM_PIPELINES = {
-#    'quotesbot.pipelines.SomePipeline': 300,
+#    'adondevivir.pipelines.ValidatorPipeline': 300,
 #}
 
 # Enable and configure the AutoThrottle extension (disabled by default)

@@ -7,5 +7,7 @@
 
 import scrapy
 
-class DepartamentoItem(scrapy.Item):
+class Departamento(scrapy.Item):
+    url = scrapy.Field()
+    title = scrapy.Field()
     pass
